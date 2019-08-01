@@ -1,4 +1,4 @@
-package model
+package model.MapEnviro
 
 class Chunk(val xloc:Int,val yloc:Int,val chunkSize:Int){
 

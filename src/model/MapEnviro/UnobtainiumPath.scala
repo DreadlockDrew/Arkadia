@@ -1,4 +1,4 @@
-package model
+package model.MapEnviro
 
 class UnobtainiumPath extends Tile {
   override var name: String = "UnobtainiumPath"

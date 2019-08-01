@@ -1,4 +1,4 @@
-package model
+package model.MapEnviro
 
 abstract class Tile {
   var name:String
