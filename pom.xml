@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <groupId>Drewn</groupId>
+    <artifactId>Arkadia</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <url>http://maven.apache.org</url>
+    <version>0.0.1</version>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.scalafx</groupId>
+            <artifactId>scalafx_2.13</artifactId>
+            <version>14-R19</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalactic</groupId>
+            <artifactId>scalactic_2.13</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.13</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+
+
+
+    </dependencies>
+</project>
