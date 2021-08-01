@@ -6,6 +6,8 @@ import scalafx.scene.Scene
 import scalafx.scene.control.{Menu, MenuBar, MenuItem, SeparatorMenuItem}
 import scalafx.scene.layout.BorderPane
 
+import javax.swing.JLayeredPane
+
 object Editor extends JFXApp{
   stage= new JFXApp.PrimaryStage{
     title="Editor"
@@ -24,7 +26,7 @@ object Editor extends JFXApp{
      editMenu.items=List(copyItem,cutItem,pasteItem)
 
     val rootPane= new BorderPane
-    rootPane.
+    val layPane = new JLayeredPane
     //menuBar.menus= List(fileMenu,editMenu)
 
 
